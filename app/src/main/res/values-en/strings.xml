@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SC2CoopAssist</string>
+    <string name="botton_start">Start</string>
+    <string name="botton_options">Options</string>
+    <string name="botton_exit">Exit</string>
+    <string name="options_language">Language</string>
+    <string name="options_about">About</string>
+    <string name="about_description">This app is written to help StarCraft II co-op players memorize the game mechanics, making the game more enjoyable. GLHF!\n
+        Author: MrFacetious\n
+        Project on Github: https://github.com/yoooooolx/SC2CoopAssist\n
+        Game data from: https://bbs.nga.cn/read.php?tid=17265336
+    </string>
+    <string name="title_line1">Starcraft II</string>
+    <string name="tle_line2">Co-op Assistant</string>
+    <string name="start_top">Choose the map</string>
+    <string name="top_mapsel">Select map</string>
+</resources>

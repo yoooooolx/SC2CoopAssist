@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">星际2合作背板助手</string>
+    <string name="botton_start">开始</string>
+    <string name="botton_options">选项</string>
+    <string name="botton_exit">退出</string>
+    <string name="language_zh" translatable="false">简体中文</string>
+    <string name="language_en" translatable="false">English</string>
+    <string name="options_language">语言</string>
+    <string name="options_about">关于</string>
+    <string name="about_description">这个程序用于帮助星际争霸2合作模式的玩家记住游戏机制，从而更愉快地游戏。GLHF！\n
+        作者：滑稽菌\n
+        项目地址: https://github.com/yoooooolx/SC2CoopAssist\n
+        数据来源: https://bbs.nga.cn/read.php?tid=17265336
+    </string>
+    <string name="title_line1">星际争霸2合作模式</string>
+    <string name="tle_line2">背板助手</string>
+    <string name="start_top">选择地图</string>
+    <string name="top_mapsel">选择地图</string>
+</resources>
