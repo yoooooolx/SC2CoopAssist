@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.facetious.mr.sc2coopassist">
+    package="com.facetious.mr.sc2coopassist" >
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SC2CoopAssist">
+        android:theme="@style/Theme.SC2CoopAssist" >
         <activity
-            android:name=".activityStart"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/top_mapsel" />
+            android:name=".AssistActivity"
+            android:parentActivityName=".StartActivity"
+            android:exported="false" />
         <activity
-            android:name=".activityOptions"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/botton_options"/>
-        <activity android:name=".MainActivity">
+            android:name=".StartActivity"
+            android:label="@string/top_mapsel"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OptionsActivity"
+            android:label="@string/botton_options"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

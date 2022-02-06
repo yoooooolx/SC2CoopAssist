@@ -13,11 +13,15 @@
         项目地址: https://github.com/yoooooolx/SC2CoopAssist\n
         数据来源: https://bbs.nga.cn/read.php?tid=17265336
     </string>
-    <string name="title_line1">星际争霸2合作模式</string>
-    <string name="tle_line2">背板助手</string>
-    <string name="start_top">选择地图</string>
+    <string name="title_line1">星际争霸2</string>
+    <string name="tle_line2">合作模式背板助手</string>
     <string name="top_mapsel">选择地图</string>
     <string name="language_df">跟随系统</string>
     <string name="map_RtK">克哈裂痕</string>
     <string name="map_VT">虚空撕裂</string>
+    <string name="assist_nextaw">下一波红点在：</string>
+    <string name="assist_awcd">距离刷新还有：</string>
+    <string name="assist_awtime">刷新时间：</string>
+    <string name="assist_map">当前地图：</string>
+    <string name="map_Rand">随机地图</string>
 </resources>

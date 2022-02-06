@@ -13,9 +13,13 @@
     </string>
     <string name="title_line1">Starcraft II</string>
     <string name="tle_line2">Co-op Assistant</string>
-    <string name="start_top">Choose the map</string>
     <string name="top_mapsel">Select map</string>
     <string name="language_df">Follow system</string>
     <string name="map_RtK">Rifts to Korhal</string>
     <string name="map_VT">Void Thrashing</string>
+    <string name="assist_nextaw">Next attack wave from:</string>
+    <string name="assist_awcd">Count down:</string>
+    <string name="assist_awtime">Will spawn at:</string>
+    <string name="assist_map">Current map:</string>
+    <string name="map_Rand">Random Map</string>
 </resources>

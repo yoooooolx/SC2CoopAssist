@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun startAssist(view: View) {
-        val intent = Intent(this, activityStart::class.java)
+        val intent = Intent(this, StartActivity::class.java)
         startActivity(intent)
     }
 
     fun assistOptions(view: View) {
-        val intent = Intent(this, activityOptions::class.java)
+        val intent = Intent(this, OptionsActivity::class.java)
         startActivity(intent)
     }
 
