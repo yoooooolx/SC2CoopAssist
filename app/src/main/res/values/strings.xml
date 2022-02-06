@@ -6,7 +6,7 @@
     <string name="botton_exit">退出</string>
     <string name="language_zh" translatable="false">简体中文</string>
     <string name="language_en" translatable="false">English</string>
-    <string name="options_language">语言</string>
+    <string name="options_language">选择语言</string>
     <string name="options_about">关于</string>
     <string name="about_description">这个程序用于帮助星际争霸2合作模式的玩家记住游戏机制，从而更愉快地游戏。GLHF！\n
         作者：滑稽菌\n
@@ -17,4 +17,7 @@
     <string name="tle_line2">背板助手</string>
     <string name="start_top">选择地图</string>
     <string name="top_mapsel">选择地图</string>
+    <string name="language_df">跟随系统</string>
+    <string name="map_RtK">克哈裂痕</string>
+    <string name="map_VT">虚空撕裂</string>
 </resources>

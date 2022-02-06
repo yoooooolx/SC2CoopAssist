@@ -14,10 +14,6 @@
             android:parentActivityName=".MainActivity"
             android:label="@string/top_mapsel" />
         <activity
-            android:name=".activityAbout"
-            android:parentActivityName=".activityOptions"
-            android:label="@string/options_about" />
-        <activity
             android:name=".activityOptions"
             android:parentActivityName=".MainActivity"
             android:label="@string/botton_options"/>

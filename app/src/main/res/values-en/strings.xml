@@ -4,7 +4,7 @@
     <string name="botton_start">Start</string>
     <string name="botton_options">Options</string>
     <string name="botton_exit">Exit</string>
-    <string name="options_language">Language</string>
+    <string name="options_language">Select language</string>
     <string name="options_about">About</string>
     <string name="about_description">This app is written to help StarCraft II co-op players memorize the game mechanics, making the game more enjoyable. GLHF!\n
         Author: MrFacetious\n
@@ -15,4 +15,7 @@
     <string name="tle_line2">Co-op Assistant</string>
     <string name="start_top">Choose the map</string>
     <string name="top_mapsel">Select map</string>
+    <string name="language_df">Follow system</string>
+    <string name="map_RtK">Rifts to Korhal</string>
+    <string name="map_VT">Void Thrashing</string>
 </resources>
