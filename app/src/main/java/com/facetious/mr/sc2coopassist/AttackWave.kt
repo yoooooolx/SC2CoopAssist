@@ -4,7 +4,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import java.util.*
 
-const val MIN_TO_MS:Long=4000   // 分钟数×10×MIN_TO_MS=毫秒数，困难/残酷难度下为1.5倍速
+const val MIN_TO_MS:Long=4000   // 游戏分钟数×10×MIN_TO_MS=现实毫秒数（困难/残酷难度下为1.5倍速）
 var nextWave:Int=0
 
 data class AttackWave(val awTime:Long, val techTier:Int, val hintImage: Int)
@@ -14,11 +14,16 @@ class AwTask(private val aw:AttackWave, private val hintImage: ImageView, privat
     override fun run() {
         // 更新红点波次数
         nextWave+=1
-        // 更换红点提示图
-        hintImage.setImageResource(aw.hintImage)
-        // 修改红点刷新时间
-        val spawnTimeLocal="${aw.awTime/(MIN_TO_MS*10)}:${(aw.awTime%(MIN_TO_MS*10))*60}"
-        spawnTime.setText(spawnTimeLocal)
+        // 更新红点刷新时间
+        val timeMin:Long=aw.awTime/(MIN_TO_MS*10)
+        val timeSec:Long=(aw.awTime%(MIN_TO_MS*10))*60
+        // 修改UI
+        val changeAW= Runnable {
+            spawnTime.text = String.format("%2d : %02d",timeMin,timeSec)
+            // 更换红点提示图
+            hintImage.setImageResource(aw.hintImage)
+        }
+        spawnTime.post(changeAW)
     }
 }
 
