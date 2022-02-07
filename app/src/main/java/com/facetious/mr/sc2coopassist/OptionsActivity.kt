@@ -1,7 +1,7 @@
 package com.facetious.mr.sc2coopassist
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class OptionsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

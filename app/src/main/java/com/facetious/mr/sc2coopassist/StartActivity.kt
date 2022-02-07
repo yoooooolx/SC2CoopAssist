@@ -1,9 +1,9 @@
 package com.facetious.mr.sc2coopassist
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
 /*
     地图序号
